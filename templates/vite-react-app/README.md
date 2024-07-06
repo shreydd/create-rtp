@@ -1,6 +1,16 @@
 # React + Vite + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Has TailwindCSS already setup and types for react installed.
+
+To start the dev server
+```
+npm run dev
+```
+
+To start a build
+```
+npm run build
+```
 
 Currently, two official plugins are available:
 
