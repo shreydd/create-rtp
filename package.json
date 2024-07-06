@@ -1,6 +1,6 @@
 {
   "name": "create-rtp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "opinionated basic react starter template",
   "main": "./index.js",
   "scripts": {

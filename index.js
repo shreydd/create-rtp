@@ -37,7 +37,11 @@ if (confirmCreateDirectory) {
      const source = path.join(templatesDir, template);
      const destination = path.join(CURR_DIR, projectName);
      fse.copy(source, destination)
-       .then(() => console.log(`Successfully created ${destination}`.green))
+       .then(() => {
+        console.log(`Successfully created ${destination}`.green)
+        console.log(`Install the dependencies by running`, `npm i`.red, `or`, `yarn install`.red)
+        console.log(`Initialize Git by running`, `git init`.red)
+       })
        .catch(err => console.error(err));
 
 } else {
